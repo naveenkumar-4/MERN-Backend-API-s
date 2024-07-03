@@ -1,4 +1,4 @@
-import User from '../models/User.js';
+import UserModel from "./user.schema.js";
 
 export const getUserDetails = async (req, res) => {
   const { userId } = req.params;
