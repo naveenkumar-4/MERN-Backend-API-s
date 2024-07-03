@@ -1,4 +1,4 @@
-import Post from '../models/Post.js';
+import Post from "../../posts/postModel";
 
 export const createPost = async (req, res) => {
   const { caption, imageUrl } = req.body;

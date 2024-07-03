@@ -8,5 +8,5 @@ const postSchema = new mongoose.Schema({
   comments: [{ type: mongoose.Schema.Types.ObjectId, ref: "Comment" }],
 });
 
-const PostModel = mongoose.model('Post', postSchema);
-export default PostModel;
+const Post = mongoose.model('Post', postSchema);
+export default Post;
