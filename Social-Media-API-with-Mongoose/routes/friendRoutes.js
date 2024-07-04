@@ -8,5 +8,5 @@ router.post('/toggle-friendship/:friendId', auth, sendRequest);
 router.post('/response-to-request/:friendId', auth, respondRequest);
 router.get('/get-friends', auth, getFriends);
 router.get('/get-pending-requests', auth, getPendingRequests);
-
+ 
 export default router;

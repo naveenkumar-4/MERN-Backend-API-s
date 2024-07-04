@@ -59,5 +59,5 @@ export const getPendingRequests = async (req, res) => {
     res.send(requests);
   } catch (error) {
     res.status(500).send(error);
-  }
+  } 
 };
