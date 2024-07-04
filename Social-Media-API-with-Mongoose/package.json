@@ -1,7 +1,7 @@
 {
   "name": "social-media-api-with-mongoose",
   "version": "1.0.0",
-  "description": "Basic Social Media App created with mongoose",
+  "description": "Basic Social Media App implemented with mongoose",
   "main": "app.js",
   "scripts": {
     "test": "npm start"
